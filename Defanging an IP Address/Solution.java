@@ -1,5 +1,6 @@
 public class Solution 
 {
+    //noobSolution
     public String defangIPaddr(String address) 
     {
         String [] addresArray  = address.split("'\\.'");
