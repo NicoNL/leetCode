@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Runtime.Intrinsics.X86;
 
-namespace RemoveElement
+namespace IndexOcurrance
 {
     class Programm
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(StrStr("mississippi", "pi"));
-        }
-        static public int StrStr(string haystack, string needle)
+        public int StrStr(string haystack, string needle)
         {
             if (haystack.Contains(needle))
             {
