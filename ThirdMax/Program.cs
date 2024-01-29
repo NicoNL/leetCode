@@ -2,6 +2,7 @@
 
 namespace ThirdMax
 {
+    //MY WORST SOLUTION SO FAR, I'LL MAKE IT BETTER I PROMISE :*
     class Program
     {
         public int ThirdMax(int[] nums)
